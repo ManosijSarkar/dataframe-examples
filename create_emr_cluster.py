@@ -50,7 +50,7 @@ def lambda_handler(event, context):
         Applications=[
             {'Name': 'Spark'},
             {'Name': 'Zeppelin'},
-            {'Name': 'Ganglia'}
+            {'Name': 'Ganglia'} #unmute me
         ],
         VisibleToAllUsers=True,
         ServiceRole='EMR_DefaultRole',
